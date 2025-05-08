@@ -1,0 +1,91 @@
+# Path to JSON file that holds all the dataset paths
+json_path: 'data/json_datasets/functional_language_areas_mapping_fold_3.json'
+
+# Project & experiment details
+project_name: fmri
+experiment_name: swinunter_fold3
+experiment_number: _0
+#########################################################################################
+dtype: &dtype
+    'float32'
+
+weights_path: "model_weights/experiments/swinunter_fold3/best_model.pt"
+#########################################################################################
+
+# Hyperparameters
+batch_size: 1
+shuffle_data: false
+amp_dtype: torch.float32
+
+
+# Dataset type 
+dataset_type: Dataset
+
+# Model Arguments
+model_arguments:
+    model_name: SwinUNETR
+    img_size: [0, 0, 0] # this parameter is required but deprecated
+    in_channels: 4
+    out_channels: 3
+    depths: [2, 2, 2, 2]
+    num_heads: [1, 2, 3, 4]
+    feature_size: 24
+    drop_rate: 0.4
+    attn_drop_rate: 0.4
+    dropout_path_rate: 0.4
+
+# final activation
+final_activation: True
+
+# Metrics
+metrics:
+    DiceMetric:
+        include_background: false
+        get_not_nans: true
+        ignore_empty: false
+    Sensitivity:
+        include_background: false
+    Specificity:
+        include_background: false
+metricForSaving: DiceMetric
+
+
+# MONAI transforms
+defaultTransforms:
+    LoadImaged:
+        keys: ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        image_only: true
+        ensure_channel_first: true
+        dtype: *dtype
+    ToTensord:
+        keys:  ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        dtype: *dtype
+    JointCrop:
+        keys:  ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        significant_key: 'brain_mask'
+    DivisiblePadd:
+        keys:  ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        k: 32
+    Normalize0to1:
+        keys: ['t1']
+    ConcatItemsdClone:
+        keys: ["broca", "wernicke"]
+        dim: 0
+        name: "gt"
+    AddBackgroundGTChannel:
+        keys: ['gt']
+    ConcatItemsd:
+        keys: ["t1", "dec_rgb"]
+        dim: 0
+        name: "img"
+
+transforms: {}
+valTransforms: {}
+testTransforms: {}
+
+
+sets: ['test']
+set2transforms:
+    training: transforms
+    validation: valTransforms
+    test: testTransforms

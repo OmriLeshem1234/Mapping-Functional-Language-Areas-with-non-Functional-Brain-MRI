@@ -1,0 +1,248 @@
+{
+    "training": [
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_10/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_10/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_10/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_10/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_10/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_10/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_21/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_21/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_21/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_21/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_21/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_21/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_29/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_29/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_29/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_29/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_29/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_29/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_17/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_17/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_17/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_17/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_17/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_17/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_20/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_20/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_20/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_20/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_20/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_20/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_3/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_3/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_3/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_3/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_3/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_3/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_23/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_23/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_23/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_23/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_23/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_23/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_22/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_22/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_22/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_22/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_22/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_22/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_28/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_28/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_28/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_28/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_28/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_28/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_2/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_2/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_2/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_2/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_2/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_2/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_27/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_27/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_27/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_27/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_27/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_27/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_16/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_16/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_16/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_16/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_16/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_16/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_25/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_25/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_25/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_25/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_25/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_25/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_5/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_5/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_5/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_5/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_5/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_5/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_14/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_14/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_14/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_14/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_14/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_14/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_12/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_12/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_12/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_12/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_12/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_12/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_11/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_11/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_11/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_11/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_11/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_11/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_13/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_13/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_13/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_13/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_13/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_13/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_15/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_15/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_15/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_15/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_15/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_15/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_26/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_26/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_26/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_26/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_26/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_26/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_19/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_19/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_19/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_19/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_19/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_19/wernicke.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_0/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_0/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_0/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_0/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_0/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_0/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_24/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_24/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_24/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_24/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_24/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_24/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_6/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_6/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_6/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_6/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_6/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_6/wernicke.nii.gz"
+        }
+    ],
+    "test": [
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_18/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_18/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_18/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_18/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_18/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_18/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_1/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_1/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_1/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_1/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_1/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_1/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_7/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_7/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_7/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_7/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_7/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_7/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_9/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_9/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_9/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_9/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_9/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_9/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_8/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_8/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_8/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_8/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_8/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_8/wernicke.nii.gz"
+        },
+        {
+            "t1": "/home/user/fMRI_Mapping/data_nii/case_4/t1.nii.gz",
+            "dec_rgb": "/home/user/fMRI_Mapping/data_nii/case_4/dec_rgb.nii.gz",
+            "brain_mask": "/home/user/fMRI_Mapping/data_nii/case_4/brain_mask.nii.gz",
+            "gm": "/home/user/fMRI_Mapping/data_nii/case_4/gm.nii.gz",
+            "broca": "/home/user/fMRI_Mapping/data_nii/case_4/broca.nii.gz",
+            "wernicke": "/home/user/fMRI_Mapping/data_nii/case_4/wernicke.nii.gz"
+        }
+    ]
+}

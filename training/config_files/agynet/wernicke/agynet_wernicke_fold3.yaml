@@ -1,0 +1,126 @@
+# comet ML logging - Optional
+log: False  # True/False
+workspace: 'add your workspace here'
+api_key: 'add your api key here'
+
+
+# Path to JSON file that holds all the dataset paths
+json_path: 'data/json_datasets/functional_language_areas_mapping_fold_3.json'
+
+# Saves paths
+save_weights_path: 'model_weights/experiments/'
+save_checkpoints_path: 'model_checkpoints'
+
+# Project & experiment details
+project_name: fmri
+experiment_name: agynet_wernicke_fold3
+experiment_number: _0
+
+#########################################################################################
+dtype: &dtype
+    'float32'
+
+
+mri_dim: &mri_dim
+    [160, 192, 160]
+
+gt: &gt
+    'wernicke'
+#########################################################################################
+
+# Hyperparameters
+anatomy_loss: True # True/False
+batch_size: 1
+epochs: 70
+shuffle_data: true
+amp_dtype: float32
+
+# Use pretrained model from HCP
+use_pretrained_hcp: True
+pretrained_hcp_path: "model_weights/pre_trained_HCP/AGYnet/pre_trained_agynet_brodmann_areas_hcp.pt"
+
+# Dataset type
+dataset_type: Dataset
+
+# Optimizer arguments
+optimizer_arguments:
+    optimizer: 'Adam'
+
+# Learning Rate Scheduler
+scheduler_arguments:
+    scheduler: CyclicLR
+    base_lr: 5e-5
+    max_lr: 1e-4
+    mode: triangular
+    step_size_up: 15
+    step_size_down: 15
+    gamma: 0.5
+    cycle_momentum: false
+
+
+# Model Arguments
+model_arguments:
+    model_name: AGYnet
+    out_channels: 2
+    mri_dims: *mri_dim
+    channels: [20, 40, 80, 160, 320]
+
+
+# Final activation
+final_activation: False # built in softmax in AGYnet
+
+
+# Metrics
+metrics:
+    DiceMetric:
+        include_background: false
+        get_not_nans: true
+        ignore_empty: false
+metricForSaving: DiceMetric
+
+
+# MONAI transforms
+defaultTransforms:
+    LoadImaged:
+        keys: ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        image_only: true
+        ensure_channel_first: true
+        dtype: *dtype
+    ToTensord:
+        keys: ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        dtype: *dtype
+    JointCrop:
+        keys: ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        significant_key: 'brain_mask'
+    SpatialPadd:
+        keys: ['t1', 'dec_rgb', 'brain_mask', 'gm', 'broca', 'wernicke']
+        spatial_size: *mri_dim
+    Normalize0to1:
+        keys: ['t1']
+    RenameKey:
+        old_name: *gt # broca or wernicke keys
+        new_name: "gt"
+    AddBackgroundGTChannel:
+        keys: ['gt']
+    ConcatItemsd:
+        keys: ["t1", "dec_rgb"]
+        dim: 0
+        name: "img"
+
+transforms:
+    RandomSagittalFlip:
+        keys: ["img", "gt", "gm"]
+    RandRotated:
+        keys: ["img", "gt", "gm"]
+        mode: ['bilinear', 'nearest', 'nearest']
+        range_x: 0.1221 # 7 degrees
+        range_y: 0.1221 # 7 degrees
+        range_z: 0.1221 # 7 degrees
+
+valTransforms: {}
+
+# Utilities
+sets: ['training', 'validation']
+set2transforms:
+    training: transforms
+    validation: valTransforms

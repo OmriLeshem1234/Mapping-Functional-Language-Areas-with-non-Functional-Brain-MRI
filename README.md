@@ -123,7 +123,7 @@ Trained weights will be saved automatically under:
 > To enable Comet integration, set the `workspace` and `api_key` fields in the corresponding config file under:
 
 ```
-training/code/config_files/
+training/config_files/
 ```
 
 ---

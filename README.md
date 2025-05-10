@@ -74,13 +74,13 @@ python create_json_data.py
 Output will be saved to:
 
 ```
-./data/datasets/json_datasets/
+./data/json_datasets/
 ```
 
 Example JSON files are available under:
 
 ```
-./data/datasets/json_datasets_examples/
+./data/json_datasets_examples/
 ```
 
 > Note: The clinical dataset used in this project is currently unavailable for public release due to regulatory constraints.

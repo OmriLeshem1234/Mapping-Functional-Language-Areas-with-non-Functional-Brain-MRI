@@ -153,9 +153,9 @@ python main_test.py --model agynet --region wernicke
 Test results will be saved under the `./outputs/` directory, which is created automatically.
 
 This includes:
-- Predicted segmentation masks as NIfTI files (`.nii.gz`)
-- ROC curves per region/model
-- Sensitivity values per margin (no plots)
+- Saving predicted segmentation probabilities as NIfTI files (`.nii.gz`)
+- Saving final binary segmentation masks as NIfTI files (`.nii.gz`)
+
 
 ---
 
@@ -164,7 +164,7 @@ This includes:
 Once `main_test.py` has been executed for all models and both regions (broca and wernicke), the following analyses run automatically:
 
 - Atlas-based segmentation comparison
-- ROC and AUC computation
+- ROC curves and AUC computation per region/model
 - Sensitivity margins analysis (5 mm clinical threshold)
 
 All analysis outputs are stored under the `./outputs/` directory alongside the model predictions.

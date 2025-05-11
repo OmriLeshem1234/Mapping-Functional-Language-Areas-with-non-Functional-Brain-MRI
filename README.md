@@ -31,12 +31,17 @@ Download model weights from the shared folder:
 
 [model_weights – Google Drive link](https://drive.google.com/drive/u/4/folders/1NbgwwP-U-6f3rHkWj9JM_VY8gSa5uM97)
 
-Replace the existing `model_weights` directory:
+Copy the downloaded `model_weights` directory into the repository root:
 
 ```bash
-rm -rf ./model_weights
-mv /path/to/downloaded/model_weights ./model_weights
+cp -r /path/to/downloaded/model_weights ./model_weights
 ```
+
+> If the `model_weights` folder already exists, you may remove it first with:
+> 
+> ```bash
+> rm -rf ./model_weights
+> ```
 
 These pre-trained weights were trained on the HCP dataset using Brodmann area-derived functional labels. They serve as a starting point for fine-tuning on clinical or other domain-specific data.
 
@@ -54,12 +59,18 @@ Download the atlas folder from:
 
 [sensaas_atlas – Google Drive link](https://drive.google.com/drive/folders/19r245NQPzGQSXtV6unnKmQanlooyhyfE?usp=drive_link)
 
-Replace the existing atlas directory:
+Copy the downloaded `sensaas_atlas` folder into the `.data/` directory:
 
 ```bash
-rm -rf .data/sensaas_atlas
-mv /path/to/downloaded/sensaas_atlas .data/sensaas_atlas
+mkdir -p .data
+cp -r /path/to/downloaded/sensaas_atlas .data/sensaas_atlas
 ```
+
+> If a previous version exists, remove it first with:
+> 
+> ```bash
+> rm -rf .data/sensaas_atlas
+> ```
 
 ---
 

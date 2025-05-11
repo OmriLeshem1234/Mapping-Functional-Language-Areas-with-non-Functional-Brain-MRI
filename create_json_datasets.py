@@ -69,7 +69,20 @@ def process_fold(fold):
 
 
 def main_json_datasets():
-    """Generates JSON dataset files for all 5 folds."""
+    """
+     Prepares the directory structure and generates JSON dataset files for cross-validation.
+
+     - Creates subdirectories for cases 0 to 29 under 'data/data_nii/' if they do not exist.
+     - Generates dataset JSON files for each of the 5 folds by calling `process_fold(fold)`.
+     """
+
+    # Create empty data directories for cases 0 to 29 under data/data_nii/
+    for case_idx in range(30):
+        data_dir = Path(__file__).parent.joinpath("data").joinpath("data_nii").joinpath(f"case_{case_idx}")
+        data_dir.mkdir(parents=True, exist_ok=True)
+
+
+    # Generates JSON dataset files for all 5 folds.
     for fold in range(5):
         process_fold(fold)
 

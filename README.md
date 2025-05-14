@@ -14,19 +14,25 @@ This project introduces a deep learning framework for indirect segmentation of f
 
 ## 1. Setup
 
-Clone the repository and create the conda environment:
+## Setup Instructions
 
+### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/OmriLeshem1234/Mapping-Functional-Language-Areas-with-non-Functional-Brain-MRI.git
+```
 
-# Navigate into the repository directory
+### Navigate into the repository directory
+```bash
 cd Mapping-Functional-Language-Areas-with-non-Functional-Brain-MRI
+```
 
-# Create the conda environment
+### Create the conda environment
+```bash
 conda env create -f environment.yaml
+```
 
-# Activate the conda environment
+### Activate the conda environment
+```bash
 conda activate fmri_env
 ```
 

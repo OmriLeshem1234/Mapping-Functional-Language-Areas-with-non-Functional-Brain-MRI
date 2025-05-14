@@ -39,6 +39,7 @@ cp -r /path/to/downloaded/model_weights ./model_weights
 
 These pre-trained weights were trained on the HCP dataset using Brodmann area-derived functional labels. They serve as a starting point for fine-tuning on clinical or other domain-specific data.
 Note: The `clinical_fMRI` directory contains model weights that were fine-tuned on actual clinical data using real fMRI-derived labels, as detailed in the paper.
+
 ---
 
 ## 3. Atlas Files

@@ -14,8 +14,6 @@ This project introduces a deep learning framework for indirect segmentation of f
 
 ## 1. Setup
 
-## Setup Instructions
-
 ### Clone the repository
 ```bash
 git clone https://github.com/OmriLeshem1234/Mapping-Functional-Language-Areas-with-non-Functional-Brain-MRI.git

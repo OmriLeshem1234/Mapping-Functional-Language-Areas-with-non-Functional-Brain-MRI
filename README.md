@@ -37,14 +37,8 @@ Copy the downloaded `model_weights` directory into the repository root:
 cp -r /path/to/downloaded/model_weights ./model_weights
 ```
 
-> If the `model_weights` folder already exists, you may remove it first with:
-> 
-> ```bash
-> rm -rf ./model_weights
-> ```
-
 These pre-trained weights were trained on the HCP dataset using Brodmann area-derived functional labels. They serve as a starting point for fine-tuning on clinical or other domain-specific data.
-
+Note: The `clinical_fMRI` directory contains model weights that were fine-tuned on actual clinical data using real fMRI-derived labels, as detailed in the paper.
 ---
 
 ## 3. Atlas Files
@@ -64,12 +58,6 @@ Copy the downloaded `sensaas_atlas` folder into the `.data/` directory:
 ```bash
 cp -r /path/to/downloaded/sensaas_atlas data/sensaas_atlas
 ```
-
-> If a previous version exists, remove it first with:
-> 
-> ```bash
-> rm -rf .data/sensaas_atlas
-> ```
 
 ---
 

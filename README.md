@@ -62,8 +62,7 @@ Download the atlas folder from:
 Copy the downloaded `sensaas_atlas` folder into the `.data/` directory:
 
 ```bash
-mkdir -p .data
-cp -r /path/to/downloaded/sensaas_atlas .data/sensaas_atlas
+cp -r /path/to/downloaded/sensaas_atlas data/sensaas_atlas
 ```
 
 > If a previous version exists, remove it first with:
@@ -79,7 +78,7 @@ cp -r /path/to/downloaded/sensaas_atlas .data/sensaas_atlas
 Generate dataset JSON files with:
 
 ```bash
-python create_json_data.py
+python create_json_datasets.py
 ```
 
 Output will be saved to:

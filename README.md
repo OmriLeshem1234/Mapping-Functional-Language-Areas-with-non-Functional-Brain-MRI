@@ -55,8 +55,8 @@ Note: The `clinical_fMRI` directory contains model weights that were fine-tuned 
 After downloading and copying, the `model_weights/` directory should be placed directly under the project root. Its structure should appear as follows:
 
 ```
-model_weights/                        # Pre-trained and fine-tuned weights
-├── pre_trained_HCP/                 # Weights trained on HCP using Brodmann-derived labels
+model_weights/                       
+├── pre_trained_HCP/                 # Weights trained on HCP using Brodmann areas labels
 │   ├── AGYnet/
 │   │   ├── broca/
 │   │   └── wernicke/
@@ -89,6 +89,18 @@ Copy the downloaded `sensaas_atlas` folder into the `.data/` directory:
 ```bash
 cp -r /path/to/downloaded/sensaas_atlas data/sensaas_atlas
 ```
+After downloading and copying, the `data/` directory at the project root should be organized as follows:
+
+data/
+├── sensaas_atlas/
+│   ├── broca_atlas.nii.gz
+│   ├── wernicke_atlas.nii.gz
+│   ├── SENSAAS.nii.gz
+│   └── T1_FSL_atlas_2mm_RAS_MNI.nii.gz
+├── case_lists/
+└── json_datasets_examples/
+
+Make sure the `sensaas_atlas/` folder is correctly placed under the `data/` directory. All four listed NIfTI files are required for atlas-based segmentation comparison.
 
 ---
 

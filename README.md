@@ -91,6 +91,7 @@ cp -r /path/to/downloaded/sensaas_atlas data/sensaas_atlas
 ```
 After downloading and copying, the `data/` directory at the project root should be organized as follows:
 
+```bash
 data/
 ├── sensaas_atlas/
 │   ├── broca_atlas.nii.gz
@@ -99,6 +100,7 @@ data/
 │   └── T1_FSL_atlas_2mm_RAS_MNI.nii.gz
 ├── case_lists/
 └── json_datasets_examples/
+```
 
 Make sure the `sensaas_atlas/` folder is correctly placed under the `data/` directory. All four listed NIfTI files are required for atlas-based segmentation comparison.
 

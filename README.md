@@ -52,6 +52,24 @@ These pre-trained weights were trained on the HCP dataset using Brodmann area-de
 
 Note: The `clinical_fMRI` directory contains model weights that were fine-tuned on actual clinical data using real fMRI-derived labels, as detailed in the paper.
 
+After downloading and copying, the `model_weights/` directory should be placed directly under the project root. Its structure should appear as follows:
+
+```
+model_weights/                        # Pre-trained and fine-tuned weights
+├── pre_trained_HCP/                 # Weights trained on HCP using Brodmann-derived labels
+│   ├── AGYnet/
+│   │   ├── broca/
+│   │   └── wernicke/
+│   └── Swin-UNETR/
+└── clinical_fMRI/                   # Fine-tuned weights using real fMRI-derived clinical labels
+    ├── AGYnet/
+    │   ├── broca/
+    │   └── wernicke/
+    └── Swin-UNETR/
+```
+
+Make sure the `model_weights/` folder is located at the top level of the repository, alongside files such as `main.py` and `environment.yaml`.
+
 ---
 
 ## 3. Atlas Files

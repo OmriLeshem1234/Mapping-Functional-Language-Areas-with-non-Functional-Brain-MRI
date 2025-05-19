@@ -7,6 +7,7 @@ Accepted to the Medical Imaging with Deep Learning (MIDL) 2025 conference
 **Authors:**  
 Omri Leshem, Atira Sara Bick, Nahum Kiryati, Netta Levin, Arnaldo Mayer  
 Contact: Omri Leshem – omrileshem@mail.tau.ac.il
+Computational Imaging Lab (CILAB) - https://www.cilab.org.il/
 
 This project introduces a deep learning framework for indirect segmentation of functional language areas (Broca and Wernicke) using only anatomical and diffusion MRI data, without relying on fMRI. The approach leverages multi-modal information from T1-weighted and DWI scans, enabling clinical applicability in settings where fMRI is unavailable or unreliable.
 

@@ -2,8 +2,8 @@
 
 Official implementation of the paper:  
 **Mapping Functional Language Areas with Non-Functional Brain MRI**  
-Accepted to the Medical Imaging with Deep Learning (MIDL) 2025 conference
-MIDL 2025 Poster [View PDF] - (https://drive.google.com/file/d/1BV-uFkacYl5Dyn3DHONqhL6lQTMt1p3F/view?usp=sharing)
+Accepted to the Medical Imaging with Deep Learning (MIDL) 2025 conference.  
+[MIDL 2025 Poster – View PDF](https://drive.google.com/file/d/1BV-uFkacYl5Dyn3DHONqhL6lQTMt1p3F/view?usp=sharing)
 
 **Authors:**  
 Omri Leshem, Atira Sara Bick, Nahum Kiryati, Netta Levin, Arnaldo Mayer  
